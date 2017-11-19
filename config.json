@@ -1,0 +1,16 @@
+{
+	"token": "token",
+	"default_channel": "default channel for welcome messages",
+	"prefix": "your desired prefix",
+
+	"command_map": {
+		"command": ["list", "of", "ranks"]
+	},
+
+	"commands_folder": "folder/which/contains/command/modules",
+
+	"timeout": 0123456789,
+
+	"optionally": ["some extra global static", "data", "for use by a module"]
+}
+

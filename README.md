@@ -18,7 +18,7 @@ async def test(**kwargs):
   ...
 ```
 
-Two things to note is the required import of `asyncio` which might possibly be removed in any future revisions, and the keyword argument `**kwargs` which has to always be defined within the definition of the function as so the caller can pass arguments such as the bot, the message and the configuration (sans token) to the command so that code repetition is not needed and data can be shared evenly.
+A thing to note is the keyword argument `**kwargs` which has to always be defined within the definition of the function as so the caller can pass arguments such as the bot, the message and the configuration (sans token) to the command so that code repetition is not needed and data can be shared evenly.
 
 A possible issue might arise as the configuration may store any form of superfluous/user-provided data thus a privacy issue is clearly present because the interpassing of the configuration will negate any form of data protection.
 

@@ -1,0 +1,1 @@
+This is the folder which contains all your commands. Each command file has to have their function name the same as the filename, besides the extension, and this folder must have an `__init__.py` to mark it as a package usable by `yolo.py`.

@@ -7,9 +7,6 @@ Any commands must be placed in the corresponding commands folder with a name rel
 Because of the nature of this design, you can define as many (so-called) hidden functions which are not accessed by the main caller but are available to be called by the callee/command:
 
 ```py
-import asyncio
-
-
 async def print_init():
   print("hey!")
 

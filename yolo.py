@@ -1,5 +1,4 @@
 import discord
-import asyncio
 import json
 import sys
 import aiohttp
